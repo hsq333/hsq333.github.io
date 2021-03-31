@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<style>
+	#para1{
+		text-align: center;
+		color: rgba(86,117,226,1.00)
+	}
+	
+</style>
+<body>
+<h1 id="para1">网页设计</h1>
+	<p>网页设计（web design，又称为Web UI design，WUI design，WUI），是根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划，然后进行的页面设计美化工作。作为企业对外宣传物料的其中一种，精美的网页设计，对于提升企业的互联网品牌形象至关重要。</p>
+	<p>网页设计一般分为三种大类：功能型网页设计（服务网站&B/S软件用户端）、形象型网页设计（品牌形象站）、信息型网页设计（门户站）。设计网页的目的不同，应选择不同的网页策划与设计方案。</p>
+</body>
+</html>
