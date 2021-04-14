@@ -1,0 +1,36 @@
+<html>
+<body>
+<h2>姓名</h2>
+<p>（输入为空无效）</p>
+<form action="/demo/action_page.php" method="post">
+  <input type="text" name="fname" required>
+  <input type="submit" value="提交">
+</form>
+
+<h2>成绩</h2>
+<p>（不在0-100范围内无效）</p>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">提交</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x, text; 
+
+  // 获取 id="numb" 的输入字段的值
+  x = document.getElementById("numb").value;
+
+  // 如果 x 不是数字或小于 1 或大于 10
+  if (isNaN(x) || x < 1 || x > 100) {
+    text = "输入无效";
+  } else {
+    text = "输入有效";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

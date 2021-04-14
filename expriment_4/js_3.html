@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">看这里看这里</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("请输入您的名字：", "");
+  if (person == null || person == "") {
+    txt = "用户取消输入";
+  } else {
+    txt = "哇，" + person + "！今天怎么那么美！";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
