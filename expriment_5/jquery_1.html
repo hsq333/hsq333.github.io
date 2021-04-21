@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".flip").click(function(){
+    $(".panel").slideToggle("slow");
+  });
+});
+</script>
+ 
+<style type="text/css"> 
+div.panel,p.flip
+{
+margin:0px;
+padding:5px;
+text-align:center;
+background:rgba(246,171,40,1.00);
+border:solid 1px #c3c3c3;
+}
+div.panel
+{
+height:120px;
+display:none;
+}
+</style>
+</head>
+ 
+<body>
+ 
+<div class="panel">
+<p>南京理工大学</p>
+<p>经济管理学院</p>
+</div>
+ 
+<p class="flip">click</p>
+ 
+</body>
+</html>
